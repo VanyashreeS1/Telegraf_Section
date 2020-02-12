@@ -5,8 +5,8 @@
   - name: Add telegraf repository
     yum_repository:
       name: influxdb
-      description: InfluxDB Repository - RHEL $releasever
-      baseurl: https://repos.influxdata.com/rhel/$releasever/$basearch/stable
+      description: InfluxDB Repository - RHEL $releaserver
+      baseurl: https://repos.influxdata.com/rhel/$releaserver/$basearch/stable
       gpgcheck: yes
       gpgkey: https://repos.influxdata.com/influxdb.key
 
